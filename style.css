@@ -12,9 +12,9 @@ body {
 nav {
     background-color: #4CAF50;
     padding: 10px;
-    display: flex; /* Ajout de flexbox */
-    justify-content: space-between; /* Pour aligner le menu à gauche et la recherche à droite */
-    align-items: center; /* Pour centrer verticalement le contenu */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav ul {
@@ -22,7 +22,6 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    /* justify-content: space-around;  Pas nécessaire avec justify-content: space-between sur nav */
 }
 
 nav li {
@@ -106,9 +105,9 @@ footer {
 }
 
 nav #searchForm {
-    display: flex; /* Important pour aligner les éléments du formulaire */
+    display: flex;
     align-items: center;
-    margin-right: 20px; /* Marge à droite pour l'espacement */
+    margin-right: 20px;
 }
 
 nav #searchForm input {
