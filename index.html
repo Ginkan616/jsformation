@@ -14,28 +14,26 @@
         <li><a href="about.html">About Us</a></li>
         <li><a href="contact.html">Contact Us</a></li>
     </ul>
+    <form id="searchForm">
+        <input type="text" id="searchInput" placeholder="Search...">
+        <button type="submit">Search</button>
+        <button type="button" id="clearButton">Clear</button>
+    </form>
 </nav>
 
 <section id="home">
     <h2>Welcome to Travel Recommendations</h2>
     <p>Discover amazing destinations and get inspired for your next adventure!</p>
 
-    <h3>Beach Recommendation</h3>
-    <img src="images/beach1.jpg" alt="Beach 1">
-    <img src="images/beach2.jpg" alt="Beach 2">
+    <h3>Follow are recommendations !</h3>
 
-    <h3>Temple Recommendation</h3>
-    <img src="images/temple1.jpg" alt="Temple 1">
-    <img src="images/temple2.jpg" alt="Temple 2">
-
-    <h3>Country Recommendation</h3>
-    <img src="images/country1.jpg" alt="Country 1">
-    <img src="images/country2.jpg" alt="Country 2">
-</section>
+    <div id="searchResults"></div> </section>
 
 <footer>
     <p>&copy; 2023 Travel Recommendations. All rights reserved.</p>
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>

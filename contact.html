@@ -10,15 +10,21 @@
 
 <nav>
     <ul>
-        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
     </ul>
+    <form id="searchForm">
+        <input type="text" id="searchInput" placeholder="Search...">
+        <button type="submit">Search</button>
+        <button type="button" id="clearButton">Clear</button>
+    </form>
 </nav>
 
 <section id="contact">
     <form id="contactForm">
-        <h2>Contact Us</h2>  <label for="name">Name:</label>
+        <h2>Contact Us</h2>
+        <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
 
         <label for="email">Email:</label>
@@ -31,17 +37,11 @@
     </form>
 </section>
 
-<script>
-    document.getElementById('contactForm').addEventListener('submit', function(event) {
-        event.preventDefault();
-        alert('Thank you for your message!');
-        this.reset(); 
-    });
-</script>
-
 <footer>
     <p>&copy; 2023 Travel Recommendations. All rights reserved.</p>
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
